@@ -1,25 +1,21 @@
-
-# include "main.h"
+#include "main.h"
 
 /**
- *main - print out main car by char.
- *Description: uses the main header file
- *that contains the function _putchar
- *Return: 0.
+ * main - writes the character _putchar to stdout
+ *
+ * Return: On success 1
+ * On error, -1 is returned, and error is set appropriately.
  */
-
 int main(void)
 {
-char str[] = "_putchar";
-int i;
-
-i = 0;
-while (str[i])
-{
-_putchar(str[i]);
-++i;
-}
-_putchar('\n');
-
-return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
