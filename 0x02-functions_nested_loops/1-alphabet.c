@@ -1,22 +1,18 @@
 #include "main.h"
 /**
- * print_alphabet - prints the alphabet in lowercase.
- *
- * Description: Uses the holberton header file, that brings in the _putchar
- *  funtction.
- * Return: void.
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  */
-
 void print_alphabet(void)
 {
-char ch;
+	char ch;
 
-ch = 'a';
+	ch = 'a';
 
-while (ch <= 'z')
-{
-_putchar(ch);
-++ch;
-}
-_putchar('\n');
+	while (ch <= 'z')
+	{
+		_putchar(ch);
+		ch++;
+	}
+
+	_putchar('\n');
 }
